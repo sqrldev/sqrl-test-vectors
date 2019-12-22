@@ -18,6 +18,11 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
   (INdexed Secret) given the user's IMK, the domain name, and the SIN (Secret 
   INdex) provided by the server as a string. The resulting INS is Base64URL-encoded.
   *Created by Shane Killian. Still needs to be verified.*
+- **identity-lock-vectors.txt** - A CSV file of 14 vectors for testing the
+  Identity Lock protocol. Given an Identity Unlock Key (IUK) and a Random Lock
+  Value (RLV), test the results of the Identity Lock Key (ILK), the Server Unlock
+  Key (SUK), the Diffie-Hellman Key Agreement for unlocking the identity (DHKA),
+  and the Verify Unlock Key (VUK). All values hex-encoded. *Created by PHolder.*
 
 ## Needed
 
