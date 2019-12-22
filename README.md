@@ -12,12 +12,12 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
   keys. The Identity Master Key (IMK) is combined with a domain name (as well as
   extensions) and an Alt-ID (if it exists) to result in the website's public key
-  identifying the user (the IDK).   The IMK and IDK are Base64URL-encoded. 
+  identifying the user (the IDK). The IMK and IDK are Base64URL-encoded. 
   *Created by Shane Killian. Still needs to be verified.*
 - **ins-vectors.txt** - A CSV file of 48 test vectors for creation of the INS
-  (INdexed Secret) given the user's IMK, the domain name, and the SIN (Secret 
-  INdex) provided by the server as a string. The resulting INS is Base64URL-encoded.
-  *Created by Shane Killian. Still needs to be verified.*
+  (INdexed Secret) given the user's IMK (base64-URL encoded), the domain name, and 
+  the SIN (Secret INdex) provided by the server as a string. The resulting INS is
+  Base64URL-encoded. *Created by Shane Killian. Still needs to be verified.*
 - **identity-lock-vectors.txt** - A CSV file of 14 vectors for testing the
   Identity Lock protocol. Given an Identity Unlock Key (IUK) and a Random Lock
   Value (RLV), test the results of the Identity Lock Key (ILK), the Server Unlock
@@ -31,7 +31,8 @@ If any other test vectors are needed by developers, please post in the
   
 ## Credits
 
-See the list of [contributors](../../graphs/contributors).
+Initial vectors created by Shane Killian, Adam Comley, and PHolder. Additionally,
+  see the list of [contributors](../../graphs/contributors).
 
 ## License
 
