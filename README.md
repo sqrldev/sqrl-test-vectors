@@ -5,14 +5,14 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
 
 - **enscrypt-vectors.txt** - A CSV text file of 80 test vectors for EnScrypt varying 
   in number of iterations, salt, and password. *Created by Shane Killian. Verified
-  by PHolder and ahauser on the [SQRL forum](https://sqrl.grc.com).*
+  by PHolder and Alex Hauser.*
 - **enhash-vectors.txt** - A CSV file of 1000 test vectors for EnHash, encoded in
   Base64URL. *Created by Adam Comley. Verified by Shane Killian.*
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
   keys. The Identity Master Key (IMK) is combined with a domain name (as well as
   extensions) and an Alt-ID (if it exists) to result in the website's public key
   identifying the user (the IDK). The IMK and IDK are Base64URL-encoded. 
-  *Created by Shane Killian. Still needs to be verified.*
+  *Created by Shane Killian. Verified by Alex Hauser.*
 - **ins-vectors.txt** - A CSV file of 48 test vectors for creation of the INS
   (INdexed Secret) given the user's IMK (base64-URL encoded), the domain name, and 
   the SIN (Secret INdex) provided by the server as a string. The resulting INS is
