@@ -6,9 +6,8 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
 - **enscrypt-vectors.txt** - A CSV text file of 80 test vectors for EnScrypt varying 
   in number of iterations, salt, and password. *Created by Shane Killian. Verified
   by PHolder and ahauser on the [SQRL forum](https://sqrl.grc.com).*
-- **enhash-vectors.txt** - 1000 test vectors for EnHash. The first 43 characters of
-  each line are the Base64URL-encoded binary number to be hashed; the other 43 are 
-  the Base64URL-encoded result. *Created by Adam Comley. Verified by Shane Killian.*
+- **enhash-vectors.txt** - A CSV file of 1000 test vectors for EnHash, encoded in
+  Base64URL. *Created by Adam Comley. Verified by Shane Killian.*
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
   keys. The Identity Master Key (IMK) is combined with a domain name (as well as
   extensions) and an Alt-ID (if it exists) to result in the website's public key
