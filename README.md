@@ -9,10 +9,11 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
 - **enhash-vectors.txt** - A CSV file of 1000 test vectors for EnHash, encoded in
   Base64URL. *Created by Adam Comley. Verified by Shane Killian.*
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
-  keys. The Identity Master Key (IMK) is combined with a domain name (as well as
-  extensions) and an Alt-ID (if it exists) to result in the website's public key
-  identifying the user (the IDK). The IMK and IDK are Base64URL-encoded. 
-  *Created by Shane Killian. Verified by Alex Hauser.*
+  keys. Given the Identity Unlock Key (IUK), the Identity Lock Key (ILK) and the
+  Identity Master Key (IMK) are derived. The IMK is then combined with a domain 
+  name (and, in some cases, extensions) and an Alt-ID (if it exists) to result in 
+  the website's public key identifying the user (the IDK). The IUK, ILK, IMK and 
+  IDK are Base64URL-encoded. *Created by Shane Killian. Still needs to be verified.*
 - **ins-vectors.txt** - A CSV file of 48 test vectors for creation of the INS
   (INdexed Secret) given the user's IMK (base64-URL encoded), the domain name, and 
   the SIN (Secret INdex) provided by the server as a string. The resulting INS is
