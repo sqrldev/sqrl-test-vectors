@@ -1,4 +1,4 @@
-Input,EnHashedOutput
+Input(base64_url),EnHashedOutput(base64_url)
 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","_FHmfDKg6e6rE-hV-1dGCrtbmVUnQtByMvqkCXxdfuU"
 "AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE","vhFHvj4Qdlv8VAsnTdRJ_YsdctXQpJ5Elh9aM-hI2yQ"
 "__________________________________________8","yyHN-LfEkKdKNRkuUHWvpzYYJy3FhVJQusPGpvlGWsE"

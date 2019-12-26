@@ -1,4 +1,4 @@
-Password,salt,iterations,Base64URLresult,hexresult
+Password,Salt,Iterations,Result(base64_url),Result(hex)
 "","",1,"qOpipuG_0g5CdQEVlTB6owJkXBgBYA71zXm_nYhNkRw","a8ea62a6e1bfd20e4275011595307aa302645c1801600ef5cd79bf9d884d911c"
 "","",2,"NBTyp7SXGaJuw1eV0LzvcgOz3-jW6-PR4AIHhdimr_U","3414f2a7b49719a26ec35795d0bcef7203b3dfe8d6ebe3d1e0020785d8a6aff5"
 "","",10,"AHJHCHgBuNd8Lkfm2mdZ6mPjjIG2R0L1aerQBedf4GA","007247087801b8d77c2e47e6da6759ea63e38c81b64742f569ead005e75fe060"
