@@ -1,4 +1,4 @@
-Input,LineNum,Output,CheckChar
+Input(hex),LineNum,Output,CheckChar
 "00",0,"22","Y"
 "00",1,"22","Q"
 "00",10,"22","3"
