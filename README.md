@@ -8,6 +8,9 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
   by PHolder and Alex Hauser.*
 - **enhash-vectors.txt** - A CSV file of 1000 test vectors for EnHash, encoded in
   Base64URL. *Created by Adam Comley. Verified by Shane Killian.*
+- **base56-vectors.txt** - A CSV file of 120 test vectors for Base56. Using a hex-
+  encoded input and a line number, generate (separately) the Base56 output and the
+  check char. *Created by Shane Killian. Still needs to be verified.
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
   keys. Given the Identity Unlock Key (IUK), the Identity Lock Key (ILK) and the
   Identity Master Key (IMK) are derived. The IMK is then combined with a domain 
