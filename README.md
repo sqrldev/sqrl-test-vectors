@@ -12,6 +12,12 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
   input in hexadecimal and a zero-based byte line number, test the result of the 
   Base56 encoding and the check char. *Created by Shane Killian. Still needs to be 
   verified.*
+- **base56-full-format-vectors.txt** - A CSV file of 128 vectors of differing lengths 
+  for testing the base56 encoding used to create textual versions of binary identities. 
+  The raw input bytes (random data was used for the test vectors instead of actual
+  identity data) are offered either base64_url- or hex-encoded, output is the string 
+  created by the base56 encoding, formatted with spaces and newlines (encoded with `\n`). 
+  *Created by Alex Hauser. Fully verified by PHolder and partly verified by PaulF.*
 - **identity-vectors.txt** - A CSV file of 80 test vectors for creation of identity
   keys. Given the Identity Unlock Key (IUK), the Identity Lock Key (ILK) and the
   Identity Master Key (IMK) are derived. The IMK is then combined with a domain 
