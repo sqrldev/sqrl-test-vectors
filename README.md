@@ -10,8 +10,7 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
   Base64URL. *Created by Adam Comley. Verified by Shane Killian.*
 - **base56-vectors.txt** - A CSV file of 120 test vectors for Base56. Given an
   input in hexadecimal and a zero-based byte line number, test the result of the 
-  Base56 encoding and the check char. *Created by Shane Killian. Still needs to be 
-  verified.*
+  Base56 encoding and the check char. *Created by Shane Killian. Verified by Alex Hauser.*
 - **base56-full-format-vectors.txt** - A CSV file of 128 vectors of differing lengths 
   for testing the base56 encoding used to create textual versions of binary identities. 
   The raw input bytes (random data was used for the test vectors instead of actual
